@@ -93,7 +93,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_RAISE] = LAYOUT(
   _______, _______, _______, _______, _______, _______,                     _______, _______, _______, _______, _______, _______,
   _______, _______, KC_BTN1, KC_MS_U, KC_BTN2, _______,                     _______, _______, _______, _______, _______, _______,
-  _______, _______, KC_MS_L, KC_MS_D, KC_MS_R, _______,                     XXXXXXX, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX,
+  _______, _______, KC_MS_L, KC_MS_D, KC_MS_R, _______,                     XXXXXXX, KC_LEFT, KC_UP, KC_DOWN,   KC_RGHT, XXXXXXX,
   _______, _______, _______, KC_VOLD, KC_VOLU, KC_MUTE,   _______, _______, KC_PGUP, KC_PGDN,  KC_HOME, KC_END, XXXXXXX, _______,
                              _______, _______, _______,  _______, _______,  _______, _______, _______
 ),
